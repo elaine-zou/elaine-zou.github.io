@@ -1,29 +1,76 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-  <meta charset = "UTF-8">
-  <meta name  = "viewport" content = "width=device-width, initial-scale=1.0">
-  <title>Elaine Zou's Formula One Webpage</title>
-  <link rel = "stylesheet" href = "styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="F1 Themed GitHub Website">
+  <title>Formula 1 Themed Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <div class = "navbar">
+    <div class="navbar">
+      <div class="logo">F1 Fan Zone</div>
       <nav>
         <ul>
-          <li><a href = "#home">Home</a></li>
-          <li><a href = "data">Data</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#teams">Teams</a></li>
+          <li><a href="#drivers">Drivers</a></li>
+          <li><a href="#calendar">Race Calendar</a></li>
         </ul>
       </nav>
+    </div>
   </header>
 
-<h1>elaine zou's webpage</h1>
+  <section id="home" class="hero">
+    <h1>Welcome to F1 World</h1>
+    <p>Your ultimate destination for everything Formula 1</p>
+  </section>
 
-<h4>about me</h4>
+  <section id="teams">
+    <h2>Formula 1 Teams</h2>
+    <div class="team-cards">
+      <div class="card">
+        <img src="team1.jpg" alt="Team 1">
+        <h3>Team 1</h3>
+      </div>
+      <div class="card">
+        <img src="team2.jpg" alt="Team 2">
+        <h3>Team 2</h3>
+      </div>
+      <div class="card">
+        <img src="team3.jpg" alt="Team 3">
+        <h3>Team 3</h3>
+      </div>
+    </div>
+  </section>
 
-<p>I am a second-year student majoring in Data Science at Northeastern University! One of my personal passions that happens to also coincide with my academic pursuits is Formula One. 
-  
-Like many others, I was initially a Formula 1 skeptic. Although I knew of the sport and had friends who enjoyed it, I was unable to discern the appeal of watching 20 cars drive around in circles for two hours. Despite common belief, however, Formula 1 is much more complex and interesting as a sport. After becoming an avid fan, I realized that Formula 1 is akin to a chess match, albeit with many more players on the board.  Beyond simply driving fast, strategy is key to winning races, and thousands of make-or-break decisions are made throughout the course of each season. Data analytics have become the cornerstone of Formula 1 strategy and decision-making as technology has advanced. The importance of data science within the realm of Formula 1 cannot be overstated.</p>
-  
+  <section id="drivers">
+    <h2>Top F1 Drivers</h2>
+    <div class="driver-cards">
+      <div class="card">
+        <img src="driver1.jpg" alt="Driver 1">
+        <h3>Driver 1</h3>
+      </div>
+      <div class="card">
+        <img src="driver2.jpg" alt="Driver 2">
+        <h3>Driver 2</h3>
+      </div>
+      <div class="card">
+        <img src="driver3.jpg" alt="Driver 3">
+        <h3>Driver 3</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="calendar">
+    <h2>Race Calendar</h2>
+    <p>Upcoming races: Bahrain, Monaco, Silverstone...</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Formula 1 Fan Zone</p>
+  </footer>
+
 </body>
 </html>
