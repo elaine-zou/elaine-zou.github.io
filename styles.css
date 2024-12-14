@@ -44,10 +44,6 @@ header {
   font-size: 18px;
 }
 
-.navbar nav ul li a:hover {
-  text-decoration: underline;
-}
-
 .hero {
   background-image: url('f1-track.jpg');
   background-size: cover;
